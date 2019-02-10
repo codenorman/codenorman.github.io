@@ -6,15 +6,24 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './reducers';
+import {MatButtonModule, MatIconModule, MatMenuModule} from '@angular/material';
+import { TopMenuComponent } from './top-menu/top-menu.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopMenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatButtonModule,
+    MatMenuModule,
+    MatIconModule,
+
     StoreModule.forRoot(reducers, { metaReducers })
   ],
   providers: [],
