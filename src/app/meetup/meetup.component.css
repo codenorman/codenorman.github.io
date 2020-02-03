@@ -1,0 +1,22 @@
+.meetup {
+  width: 30%;
+  border: #3f51b5 solid;
+  border-width: 1px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.time {
+  background-color: lightgrey;
+  font-weight: bold;
+}
+
+.location {
+
+}
+
+.topic {
+  margin-top: 10px;
+  /*background-color: lightgrey;*/
+  font-size: 20px;
+}

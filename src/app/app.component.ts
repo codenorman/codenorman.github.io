@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {Meetup} from './meetup/meetup.model';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,25 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Code Norman';
+
+  meetups: Meetup[] = [
+    {
+      time: 'Tuesday, February 4th 6:30 - ?',
+      location: {
+        name: 'OU Tom Love Innovation Hub',
+        address: 'Three Partners Place, 201 David L Boren Blvd, Norman, OK 73072'
+      },
+      topic: 'TBD'
+    },
+    {
+      time: 'Thursday, February 6th 6:30 - ?',
+      location: {
+        name: 'All About Cha',
+        address: '3750 W Main St, Norman, OK 73072'
+      },
+      topic: 'TBD'
+    }
+  ];
+
+
 }

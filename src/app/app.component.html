@@ -7,11 +7,9 @@
 
 
   <h2>Upcoming Meetups</h2>
-  <br>
-  <h3>Tuesday, February 4th 6:30 - ? @ iHub</h3>
-  <p>Topic: To Be Determined</p>
-  <h3>Thursday February 6th 6:00 - ? @ All About Cha, Norman</h3>
-  <p>Topic: To Be Determined</p>
+
+  <app-meetup class="meetup center" [meetup]="meetup" *ngFor="let meetup of meetups"></app-meetup>
+
 
   <router-outlet></router-outlet>
 </div>

@@ -1,4 +1,4 @@
-li {
-  font-size: 20px;
-  padding: 10px 10px;
+.center {
+  display: flex;
+  justify-content: center;
 }

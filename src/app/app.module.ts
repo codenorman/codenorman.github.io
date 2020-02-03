@@ -11,12 +11,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { TopMenuComponent } from './top-menu/top-menu.component';
 import { FooterComponent } from './footer/footer.component';
+import { MeetupComponent } from './meetup/meetup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopMenuComponent,
-    FooterComponent
+    FooterComponent,
+    MeetupComponent
   ],
   imports: [
     BrowserModule,
