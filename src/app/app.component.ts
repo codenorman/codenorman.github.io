@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {Meetup} from './meetup/meetup.model';
+import {Resource} from './resource/resource.model';
 
 @Component({
   selector: 'app-root',
@@ -10,14 +11,14 @@ export class AppComponent {
   title = 'Code Norman';
 
   meetups: Meetup[] = [
-    {
-      time: 'Tuesday, February 4th 6:30 - ?',
-      location: {
-        name: 'OU Tom Love Innovation Hub',
-        address: 'Three Partners Place, 201 David L Boren Blvd, Norman, OK 73072'
-      },
-      topic: 'TBD'
-    },
+    // {
+    //   time: 'Tuesday, February 4th 6:30 - ?',
+    //   location: {
+    //     name: 'OU Tom Love Innovation Hub',
+    //     address: 'Three Partners Place, 201 David L Boren Blvd, Norman, OK 73072'
+    //   },
+    //   topic: 'TBD'
+    // },
     {
       time: 'Thursday, February 6th 6:30 - ?',
       location: {
@@ -27,6 +28,13 @@ export class AppComponent {
       topic: 'TBD'
     }
   ];
+
+
+  resources: Resource[] = [
+    // {title: 'Example Title', type: 'blog-post', url:'http://chirgwin.net', description: 'An article about nothing'},
+    // {title: 'Example Title', type: 'blog-post', url:'http://chirgwin.net', description: 'An article about nothing'}
+
+  ]
 
 
 }

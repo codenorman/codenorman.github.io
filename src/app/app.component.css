@@ -1,4 +1,21 @@
 .center {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.meetup-container {
+
+}
+
+.book-container {
+
+}
+
+.resource-container {
+
 }

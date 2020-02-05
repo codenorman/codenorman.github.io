@@ -12,13 +12,15 @@ import { MatMenuModule } from '@angular/material/menu';
 import { TopMenuComponent } from './top-menu/top-menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { MeetupComponent } from './meetup/meetup.component';
+import { ResourceComponent } from './resource/resource.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopMenuComponent,
     FooterComponent,
-    MeetupComponent
+    MeetupComponent,
+    ResourceComponent
   ],
   imports: [
     BrowserModule,

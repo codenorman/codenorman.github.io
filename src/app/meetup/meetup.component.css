@@ -1,13 +1,14 @@
 .meetup {
-  width: 30%;
-  border: #3f51b5 solid;
-  border-width: 1px;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
   display: block;
   margin-bottom: 15px;
 }
 
 .time {
-  background-color: lightgrey;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: dodgerblue;
   font-weight: bold;
 }
 
@@ -15,8 +16,15 @@
 
 }
 
+.address {
+  color: grey;
+  margin: 0 15px;
+}
+
 .topic {
   margin-top: 10px;
-  /*background-color: lightgrey;*/
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: dodgerblue;
   font-size: 20px;
 }

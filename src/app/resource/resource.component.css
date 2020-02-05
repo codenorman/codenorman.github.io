@@ -1,0 +1,23 @@
+.resource {
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.type {
+  text-align: left;
+}
+
+.title {
+  margin-left: 5px ;
+}
+
+.description {
+  margin: 10px 15px 0 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /*background-color: dodgerblue;*/
+  color: grey;
+  font-size: 20px;
+}
