@@ -1,0 +1,18 @@
+<label for="count">Number of Weight Classes</label>
+<input #count id="count" type="number" value="5">
+<mat-form-field class="example-chip-list">
+  <mat-chip-list #chipList aria-label="Weight Class selection">
+    <mat-chip *ngFor="let weightClass of weightClasses" [selectable]="selectable"
+              [removable]="removable" (removed)="remove(weightClass)">
+      {{weightClass.name}}
+      <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+    </mat-chip>
+    <input placeholder="New weight class..."
+           [matChipInputFor]="chipList"
+           [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+           [matChipInputAddOnBlur]="addOnBlur"
+           (matChipInputTokenEnd)="add($event)">
+  </mat-chip-list>
+</mat-form-field>
+{{ weightClasses.length }} / {{ count.value }}
+<div class="errorMessage" *ngIf="weightClasses.length != count.value">{{count.value}} of Weight Classes required</div>
