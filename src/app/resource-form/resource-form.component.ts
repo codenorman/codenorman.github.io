@@ -26,7 +26,6 @@ export class ResourceFormComponent implements OnInit {
     {name: '45'},
   ];
 
-  get isValid() { return this.weightClasses.length !== 5}
   constructor() {
   }
 
