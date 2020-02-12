@@ -19,16 +19,24 @@ export class AppComponent {
     //   },
     //   topic: 'TBD'
     // },
+    // {
+    //   time: 'Thursday, February 6th 6:30 - ?',
+    //   location: {
+    //     name: 'All About Cha',
+    //     address: '3750 W Main St, Norman, OK 73072'
+    //   },
+    //   topic: 'TBD'
+    // },
     {
-      time: 'Thursday, February 6th 6:30 - ?',
+      time: 'Thursday, February 13th 6:00 - ?',
       location: {
         name: 'All About Cha',
         address: '3750 W Main St, Norman, OK 73072'
       },
-      topic: 'TBD'
+      topic: 'Open Topics'
     },
     {
-      time: 'Thursday, February 13th 6:00 - ?',
+      time: 'Thursday, February 20th 6:00 - ?',
       location: {
         name: 'All About Cha',
         address: '3750 W Main St, Norman, OK 73072'
