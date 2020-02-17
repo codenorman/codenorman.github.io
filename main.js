@@ -100,29 +100,13 @@ var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.title = 'Code Norman';
         this.meetups = [
-            // {
-            //   time: 'Tuesday, February 4th 6:30 - ?',
-            //   location: {
-            //     name: 'OU Tom Love Innovation Hub',
-            //     address: 'Three Partners Place, 201 David L Boren Blvd, Norman, OK 73072'
-            //   },
-            //   topic: 'TBD'
-            // },
-            // {
-            //   time: 'Thursday, February 6th 6:30 - ?',
-            //   location: {
-            //     name: 'All About Cha',
-            //     address: '3750 W Main St, Norman, OK 73072'
-            //   },
-            //   topic: 'TBD'
-            // },
             {
-                time: 'Thursday, February 13th 6:00 - ?',
+                time: 'Tuesday, February 18th 6:30 - ?',
                 location: {
-                    name: 'All About Cha',
-                    address: '3750 W Main St, Norman, OK 73072'
+                    name: 'OU Tom Love Innovation Hub',
+                    address: 'Three Partners Place, 201 David L Boren Blvd, Norman, OK 73072'
                 },
-                topic: 'Open Topics'
+                topic: 'JavaScript, TypeScript and Angular'
             },
             {
                 time: 'Thursday, February 20th 6:00 - ?',
@@ -139,7 +123,7 @@ var AppComponent = /** @class */ (function () {
         ];
     }
     AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-    AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 33, vars: 3, consts: [[2, "text-align", "center", "margin-top", "15px"], ["width", "250", "alt", "Code Norman Logo", "src", "../assets/codenorman.jpg"], [1, "content-container"], [1, "meetup-container"], ["class", "meetup center", 3, "meetup", 4, "ngFor", "ngForOf"], [1, "book-container"], [2, "font-weight", "bold"], ["href", "https://www.amazon.com/gp/product/B084BNMN7T?pf_rd_p=ab873d20-a0ca-439b-ac45-cd78f07a84d8&pf_rd_r=R1XGZXZTTN9K9TV41T01"], ["href", "https://leanpub.com/ydkjsy-get-started", 2, "margin-left", "10px"], [1, "resource-container"], [3, "resource", 4, "ngFor", "ngForOf"], [1, "meetup", "center", 3, "meetup"], [3, "resource"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+    AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 33, vars: 3, consts: [[2, "text-align", "center", "margin-top", "15px"], ["width", "250", "alt", "Code Norman Logo", "src", "../assets/codenorman.jpg"], [1, "content-container"], [1, "meetup-container"], ["class", "meetup", 3, "meetup", 4, "ngFor", "ngForOf"], [1, "book-container"], [2, "font-weight", "bold"], ["href", "https://www.amazon.com/gp/product/B084BNMN7T?pf_rd_p=ab873d20-a0ca-439b-ac45-cd78f07a84d8&pf_rd_r=R1XGZXZTTN9K9TV41T01"], ["href", "https://leanpub.com/ydkjsy-get-started", 2, "margin-left", "10px"], [1, "resource-container"], [3, "resource", 4, "ngFor", "ngForOf"], [1, "meetup", 3, "meetup"], [3, "resource"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-top-menu");
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 1);
@@ -197,7 +181,7 @@ var AppComponent = /** @class */ (function () {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.meetups);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](22);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.resources);
-        } }, directives: [_top_menu_top_menu_component__WEBPACK_IMPORTED_MODULE_1__["TopMenuComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterOutlet"], _meetup_meetup_component__WEBPACK_IMPORTED_MODULE_4__["MeetupComponent"], _resource_resource_component__WEBPACK_IMPORTED_MODULE_5__["ResourceComponent"]], styles: [".center[_ngcontent-%COMP%] {\r\n  display: -webkit-box;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n          flex-direction: column;\r\n}\r\n\r\n.content-container[_ngcontent-%COMP%] {\r\n  display: -webkit-box;\r\n  display: flex;\r\n  -webkit-box-pack: space-evenly;\r\n          justify-content: space-evenly;\r\n}\r\n\r\n.meetup-container[_ngcontent-%COMP%] {\r\n\r\n}\r\n\r\n.book-container[_ngcontent-%COMP%] {\r\n\r\n}\r\n\r\n.resource-container[_ngcontent-%COMP%] {\r\n\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxvQkFBYTtFQUFiLGFBQWE7RUFDYiw0QkFBc0I7RUFBdEIsNkJBQXNCO1VBQXRCLHNCQUFzQjtBQUN4Qjs7QUFFQTtFQUNFLG9CQUFhO0VBQWIsYUFBYTtFQUNiLDhCQUE2QjtVQUE3Qiw2QkFBNkI7QUFDL0I7O0FBRUE7O0FBRUE7O0FBRUE7O0FBRUE7O0FBRUE7O0FBRUEiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jZW50ZXIge1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxufVxyXG5cclxuLmNvbnRlbnQtY29udGFpbmVyIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG59XHJcblxyXG4ubWVldHVwLWNvbnRhaW5lciB7XHJcblxyXG59XHJcblxyXG4uYm9vay1jb250YWluZXIge1xyXG5cclxufVxyXG5cclxuLnJlc291cmNlLWNvbnRhaW5lciB7XHJcblxyXG59XHJcbiJdfQ== */"] });
+        } }, directives: [_top_menu_top_menu_component__WEBPACK_IMPORTED_MODULE_1__["TopMenuComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterOutlet"], _meetup_meetup_component__WEBPACK_IMPORTED_MODULE_4__["MeetupComponent"], _resource_resource_component__WEBPACK_IMPORTED_MODULE_5__["ResourceComponent"]], styles: [".content-container[_ngcontent-%COMP%] {\r\n  display: grid;\r\n  grid-template-columns: repeat(3, 1fr);\r\n  padding: 10px;\r\n}\r\n\r\n.meetup-container[_ngcontent-%COMP%] {\r\n\r\n}\r\n\r\n.book-container[_ngcontent-%COMP%] {\r\n\r\n}\r\n\r\n.resource-container[_ngcontent-%COMP%] {\r\n\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0VBQ2IscUNBQXFDO0VBQ3JDLGFBQWE7QUFDZjs7QUFFQTs7QUFFQTs7QUFFQTs7QUFFQTs7QUFFQTs7QUFFQSIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbnRlbnQtY29udGFpbmVyIHtcclxuICBkaXNwbGF5OiBncmlkO1xyXG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KDMsIDFmcik7XHJcbiAgcGFkZGluZzogMTBweDtcclxufVxyXG5cclxuLm1lZXR1cC1jb250YWluZXIge1xyXG5cclxufVxyXG5cclxuLmJvb2stY29udGFpbmVyIHtcclxuXHJcbn1cclxuXHJcbi5yZXNvdXJjZS1jb250YWluZXIge1xyXG5cclxufVxyXG4iXX0= */"] });
     return AppComponent;
 }());
 
