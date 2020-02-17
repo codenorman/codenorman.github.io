@@ -9,7 +9,7 @@
   <div class="content-container">
     <div class="meetup-container">
       <h2>Upcoming Meetups</h2>
-      <app-meetup class="meetup center" [meetup]="meetup" *ngFor="let meetup of meetups"></app-meetup>
+      <app-meetup class="meetup" [meetup]="meetup" *ngFor="let meetup of meetups"></app-meetup>
     </div>
 
     <div class="book-container">
@@ -24,9 +24,9 @@
       </div>
 
     </div>
+
     <div class="resource-container">
       <h2>Resources</h2>
-      <div>Coming Soon</div>
       <app-resource [resource]="resource" *ngFor="let resource of resources"></app-resource>
     </div>
   </div>
