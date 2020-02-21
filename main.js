@@ -124,15 +124,15 @@ var AppComponent = /** @class */ (function () {
         this.title = 'Code Norman';
         this.meetups = [
             {
-                time: 'Tuesday, February 18th 6:30 - ?',
+                time: 'Thursday, February 20th 6:00 - ?',
                 location: {
-                    name: 'OU Tom Love Innovation Hub',
-                    address: 'Three Partners Place, 201 David L Boren Blvd, Norman, OK 73072'
+                    name: 'All About Cha',
+                    address: '3750 W Main St, Norman, OK 73072'
                 },
-                topic: 'JavaScript, TypeScript and Angular'
+                topic: 'Mutable vs Immutable, Haskell, + Open Topics'
             },
             {
-                time: 'Thursday, February 20th 6:00 - ?',
+                time: 'Thursday, February 27th 6:00 - ?',
                 location: {
                     name: 'All About Cha',
                     address: '3750 W Main St, Norman, OK 73072'
