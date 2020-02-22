@@ -23,7 +23,7 @@ export const resources: Resource[] = [
     description: 'Learn to code. Build Projects. Earn Certification.',
     paid: false,
     upVotes: 0,
-    tags: ['html', 'javascript', 'css'],
+    tags: ['html', 'javascript', 'css', 'python'],
   },
   {
     title: 'Packt Free Book of the Day',
