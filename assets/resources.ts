@@ -7,7 +7,7 @@ export const resources: Resource[] = [
     description: 'Free beginner intro to angular',
     paid: false,
     upVotes: 0,
-    tags: ['angular',]
+    tags: ['angular']
   },
   {
     title: 'Git Branching',
@@ -23,7 +23,7 @@ export const resources: Resource[] = [
     description: 'Learn to code. Build Projects. Earn Certification.',
     paid: false,
     upVotes: 0,
-    tags: ['html', 'javascript', 'css'],
+    tags: ['html', 'javascript', 'css', 'python'],
   },
   {
     title: 'Packt Free Book of the Day',
@@ -180,7 +180,7 @@ export const resources: Resource[] = [
 
 export const tags = () => {
   const t = resources.reduce((tags, resource) => {
-    return tags.concat(resource.tags);
+    return tags.concat(resource.tags); 
   }, []);
   return Array.from(new Set(t));
 };

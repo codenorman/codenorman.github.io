@@ -124,21 +124,13 @@ var AppComponent = /** @class */ (function () {
         this.title = 'Code Norman';
         this.meetups = [
             {
-                time: 'Thursday, February 20th 6:00 - ?',
+                time: 'Tuesday, March 3rd, 6:00 - ?',
                 location: {
-                    name: 'All About Cha',
-                    address: '3750 W Main St, Norman, OK 73072'
+                    name: 'Tom Love iHub',
+                    address: 'Three Partners Place, 201 David L Boren Blvd, Norman, OK 73072'
                 },
                 topic: 'Mutable vs Immutable, Haskell, + Open Topics'
             },
-            {
-                time: 'Thursday, February 27th 6:00 - ?',
-                location: {
-                    name: 'All About Cha',
-                    address: '3750 W Main St, Norman, OK 73072'
-                },
-                topic: 'Open Topics'
-            }
         ];
         this.resources = _assets_resources__WEBPACK_IMPORTED_MODULE_2__["resources"].sort(function (a, b) {
             return (a.title < b.title) ? -1 : (a.title === b.title) ? 0 : 1;
@@ -649,7 +641,7 @@ var ResourceComponent = /** @class */ (function () {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.resource.title);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.resource.description);
-        } }, styles: [".resource[_ngcontent-%COMP%] {\r\n  border: 1px solid dodgerblue;\r\n  border-radius: 5px;\r\n  display: block;\r\n  margin-bottom: 15px;\r\n}\r\n\r\n.type[_ngcontent-%COMP%] {\r\n  text-align: left;\r\n}\r\n\r\n.title[_ngcontent-%COMP%] {\r\n  margin-left: 5px ;\r\n}\r\n\r\n.description[_ngcontent-%COMP%] {\r\n  margin: 10px 15px 0 15px;\r\n  border-bottom-left-radius: 5px;\r\n  border-bottom-right-radius: 5px;\r\n  \r\n  color: grey;\r\n  font-size: 16px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcmVzb3VyY2UvcmVzb3VyY2UuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDRCQUE0QjtFQUM1QixrQkFBa0I7RUFDbEIsY0FBYztFQUNkLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLHdCQUF3QjtFQUN4Qiw4QkFBOEI7RUFDOUIsK0JBQStCO0VBQy9CLGdDQUFnQztFQUNoQyxXQUFXO0VBQ1gsZUFBZTtBQUNqQiIsImZpbGUiOiJzcmMvYXBwL3Jlc291cmNlL3Jlc291cmNlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucmVzb3VyY2Uge1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkIGRvZGdlcmJsdWU7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIGRpc3BsYXk6IGJsb2NrO1xyXG4gIG1hcmdpbi1ib3R0b206IDE1cHg7XHJcbn1cclxuXHJcbi50eXBlIHtcclxuICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG59XHJcblxyXG4udGl0bGUge1xyXG4gIG1hcmdpbi1sZWZ0OiA1cHggO1xyXG59XHJcblxyXG4uZGVzY3JpcHRpb24ge1xyXG4gIG1hcmdpbjogMTBweCAxNXB4IDAgMTVweDtcclxuICBib3JkZXItYm90dG9tLWxlZnQtcmFkaXVzOiA1cHg7XHJcbiAgYm9yZGVyLWJvdHRvbS1yaWdodC1yYWRpdXM6IDVweDtcclxuICAvKmJhY2tncm91bmQtY29sb3I6IGRvZGdlcmJsdWU7Ki9cclxuICBjb2xvcjogZ3JleTtcclxuICBmb250LXNpemU6IDE2cHg7XHJcbn1cclxuIl19 */"] });
+        } }, styles: [".resource[_ngcontent-%COMP%] {\r\n  border: 1px solid dodgerblue;\r\n  border-radius: 5px;\r\n  display: block;\r\n  margin-bottom: 15px;\r\n}\r\n\r\n.type[_ngcontent-%COMP%] {\r\n  text-align: left;\r\n}\r\n\r\n.title[_ngcontent-%COMP%] {\r\n  margin-left: 5px ;\r\n}\r\n\r\n.description[_ngcontent-%COMP%] {\r\n  margin: 10px 15px 0 15px;\r\n  border-bottom-left-radius: 5px;\r\n  border-bottom-right-radius: 5px;\r\n  \r\n  color: grey;\r\n  font-size: 16px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcmVzb3VyY2UvcmVzb3VyY2UuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDRCQUE0QjtFQUM1QixrQkFBa0I7RUFDbEIsY0FBYztFQUNkLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLHdCQUF3QjtFQUN4Qiw4QkFBOEI7RUFDOUIsK0JBQStCO0VBQy9CLGdDQUFnQztFQUNoQyxXQUFXO0VBQ1gsZUFBZTtBQUNqQiIsImZpbGUiOiJzcmMvYXBwL3Jlc291cmNlL3Jlc291cmNlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucmVzb3VyY2Uge1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkIGRvZGdlcmJsdWU7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIGRpc3BsYXk6IGJsb2NrO1xyXG4gIG1hcmdpbi1ib3R0b206IDE1cHg7XHJcbn1cclxuXHJcbi50eXBlIHtcclxuICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG59XHJcblxyXG4udGl0bGUge1xyXG4gIG1hcmdpbi1sZWZ0OiA1cHggO1xyXG59XHJcblxyXG4uZGVzY3JpcHRpb24ge1xyXG4gIG1hcmdpbjogMTBweCAxNXB4IDAgMTVweDtcclxuICBib3JkZXItYm90dG9tLWxlZnQtcmFkaXVzOiA1cHg7XHJcbiAgYm9yZGVyLWJvdHRvbS1yaWdodC1yYWRpdXM6IDVweDtcclxuICAvKmJhY2tncm91bmQtY29sb3I6IGRvZGdlcmJsdWU7Ki9cclxuICBjb2xvcjogZ3JleTtcclxuICBmb250LXNpemU6IDE2cHg7XHJcbn1cclxuXHJcblxyXG4iXX0= */"] });
     return ResourceComponent;
 }());
 
@@ -730,7 +722,7 @@ var resources = [
         description: 'Free beginner intro to angular',
         paid: false,
         upVotes: 0,
-        tags: ['angular',]
+        tags: ['angular']
     },
     {
         title: 'Git Branching',
@@ -746,7 +738,7 @@ var resources = [
         description: 'Learn to code. Build Projects. Earn Certification.',
         paid: false,
         upVotes: 0,
-        tags: ['html', 'javascript', 'css'],
+        tags: ['html', 'javascript', 'css', 'python'],
     },
     {
         title: 'Packt Free Book of the Day',
