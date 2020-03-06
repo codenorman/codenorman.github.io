@@ -19,21 +19,21 @@ export class AppComponent {
   constructor() {
     this.meetups = [
       {
-        time: 'Thursday, February 20th 6:00 - ?',
+        time: 'Tuesday, March 3rd, 6:00 - ?',
         location: {
-          name: 'All About Cha',
-          address: '3750 W Main St, Norman, OK 73072'
+          name: 'Tom Love iHub',
+          address: 'Three Partners Place, 201 David L Boren Blvd, Norman, OK 73072'
         },
         topic: 'Mutable vs Immutable, Haskell, + Open Topics'
       },
-      {
-        time: 'Thursday, February 27th 6:00 - ?',
-        location: {
-          name: 'All About Cha',
-          address: '3750 W Main St, Norman, OK 73072'
-        },
-        topic: 'Open Topics'
-      }
+      // {
+      //       //   time: 'Thursday, February 27th 6:00 - ?',
+      //       //   location: {
+      //       //     name: 'All About Cha',
+      //       //     address: '3750 W Main St, Norman, OK 73072'
+      //       //   },
+      //       //   topic: 'Open Topics'
+      //       // }
     ];
     this.resources = resources.sort((a, b) => {
       return (a.title < b.title) ? -1 : (a.title === b.title) ? 0 : 1;
@@ -51,12 +51,12 @@ export class AppComponent {
     if (isChecked) {
       this.includeTags = [...this.includeTags, name];
     } else {
-      this.includeTags = this.includeTags.filter( f => f !== name);
+      this.includeTags = this.includeTags.filter(f => f !== name);
     }
     this.filteredResources = [...this.resources.filter(r => {
       const tags = new Set(r.tags);
-      return this.includeTags.some( tag => tags.has(tag));
-    })]
+      return this.includeTags.some(tag => tags.has(tag));
+    })];
   }
 
 }
