@@ -17,6 +17,7 @@ import {FooterComponent} from './footer/footer.component';
 import {MeetupComponent} from './meetup/meetup.component';
 import {ResourceComponent} from './resource/resource.component';
 import {ResourceFormComponent} from './resource-form/resource-form.component';
+import { BookComponent } from './book/book.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {ResourceFormComponent} from './resource-form/resource-form.component';
     FooterComponent,
     MeetupComponent,
     ResourceComponent,
-    ResourceFormComponent
+    ResourceFormComponent,
+    BookComponent
   ],
   imports: [
     BrowserModule,
