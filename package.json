@@ -43,7 +43,7 @@
     "jasmine-spec-reporter": "~4.2.1",
     "jest": "^25.1.0",
     "jest-marbles": "^2.5.1",
-    "jest-preset-angular": "^8.1.1",
+    "jest-preset-angular": "^8.1.2",
     "protractor": "^5.4.3",
     "stryker": "^0.35.1",
     "stryker-api": "^0.24.1",
