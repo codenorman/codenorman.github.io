@@ -44,8 +44,8 @@ export class AppComponent {
       this.includeTags = this.includeTags.filter(f => f !== name);
     }
     this.filteredResources = [...this.resources.filter(r => {
-      const tags = new Set(r.tags);
-      return this.includeTags.some(tag => tags.has(tag));
+      const _tags = new Set(r.tags);
+      return this.includeTags.some(tag => _tags.has(tag));
     })];
   }
 

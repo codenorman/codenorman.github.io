@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ResourceFormComponent } from './resource-form.component';
+import {NO_ERRORS_SCHEMA} from '@angular/core';
 
 describe('ResourceFormComponent', () => {
   let component: ResourceFormComponent;
@@ -8,7 +9,8 @@ describe('ResourceFormComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ResourceFormComponent ]
+      declarations: [ ResourceFormComponent ],
+      schemas: [ NO_ERRORS_SCHEMA ]
     })
     .compileComponents();
   }));

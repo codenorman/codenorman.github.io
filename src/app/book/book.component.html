@@ -1,9 +1,9 @@
 <div class="book-container">
-  <h2>{{book.status}}</h2>
-  <div style="font-weight: bold">{{book.title}}</div>
-  <div>{{book.author}}</div>
+  <h2>{{book?.status}}</h2>
+  <div style="font-weight: bold">{{book?.title}}</div>
+  <div>{{book?.author}}</div>
   <div class="link-container">
-    <div class="link" *ngFor="let link of book.links">
+    <div class="link" *ngFor="let link of book?.links">
       <a [href]="link.url" target="_blank">{{link.name}}</a>
     </div>
   </div>

@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TopMenuComponent } from './top-menu.component';
+import {NO_ERRORS_SCHEMA} from '@angular/core';
 
 describe('TopMenuComponent', () => {
   let component: TopMenuComponent;
@@ -8,7 +9,8 @@ describe('TopMenuComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TopMenuComponent ]
+      declarations: [ TopMenuComponent ],
+      schemas: [ NO_ERRORS_SCHEMA ]
     })
     .compileComponents();
   }));
