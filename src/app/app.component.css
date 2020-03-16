@@ -1,0 +1,28 @@
+.content-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filter-container .filter-tag {
+  display: inline-block;
+  margin: 10px 0 0 10px;
+}
+
+.meetup-container {
+
+}
+
+.book-container {
+
+}
+
+.resource-container {
+
+}

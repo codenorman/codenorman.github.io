@@ -1,3 +1,4 @@
+<script src="app.component.ts"></script>
 <app-top-menu></app-top-menu>
 <div style="text-align:center;margin-top: 15px;">
   <img width="250" alt="Code Norman Logo" src="../assets/codenorman.jpg">
@@ -5,12 +6,28 @@
     Welcome to {{ title }}
   </h1>
 
-  <h2>Site being developed by members.</h2>
+  <div class="content-container">
+    <div class="meetup-container">
+      <h2>Upcoming Meetups</h2>
+      <app-meetup class="meetup" [meetup]="meetup" *ngFor="let meetup of meetups"></app-meetup>
+    </div>
 
-  <div>
-    <a href="https://www.meetup.com/CODE-norman">Join the next meetup</a>
+    <div class="book-container">
+      <h2>Book readings</h2>
+      <app-book *ngFor="let book of books" [book]="book"></app-book>
+    </div>
+    <div class="resource-container">
+      <h2>Resources</h2>
+      <div class="filter-container">
+        <div class="filter-tag" *ngFor="let tag of tags">
+          <input [id]="tag" type="checkbox" [name]="tag" checked [value]="tag" (change)="onFilter($event)">
+          <label [for]="tag">{{tag}}</label>
+        </div>
+      </div>
+      <app-resource [resource]="resource" *ngFor="let resource of filteredResources"></app-resource>
+    </div>
   </div>
 
   <router-outlet></router-outlet>
 </div>
-<app-footer></app-footer>
+<!--<app-footer></app-footer>-->

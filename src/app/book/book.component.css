@@ -1,0 +1,9 @@
+
+.link-container {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  padding: 10px 10px 10px 10px;
+}

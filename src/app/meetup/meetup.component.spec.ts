@@ -1,22 +1,22 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TopMenuComponent } from './top-menu.component';
+import { MeetupComponent } from './meetup.component';
 import {NO_ERRORS_SCHEMA} from '@angular/core';
 
-describe('TopMenuComponent', () => {
-  let component: TopMenuComponent;
-  let fixture: ComponentFixture<TopMenuComponent>;
+describe('MeetupComponent', () => {
+  let component: MeetupComponent;
+  let fixture: ComponentFixture<MeetupComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TopMenuComponent ],
+      declarations: [ MeetupComponent ],
       schemas: [ NO_ERRORS_SCHEMA ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TopMenuComponent);
+    fixture = TestBed.createComponent(MeetupComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,0 +1,30 @@
+.meetup {
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.time {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: dodgerblue;
+  font-weight: bold;
+}
+
+.location {
+
+}
+
+.address {
+  color: grey;
+  margin: 0 15px;
+}
+
+.topic {
+  margin-top: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: dodgerblue;
+  font-size: 20px;
+}
