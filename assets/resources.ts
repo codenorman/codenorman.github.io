@@ -179,10 +179,9 @@ export const resources: Resource[] = [
 ];
 
 export const tags = () => {
-  const t = resources.reduce((tags, resource) => {
-    return tags.concat(resource.tags); 
+  const t = resources.reduce((_tags, resource) => {
+    return _tags.concat(resource.tags);
   }, []);
   return Array.from(new Set(t));
 };
-
 

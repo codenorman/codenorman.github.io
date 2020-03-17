@@ -5,16 +5,16 @@ export const Meetups: Meetup[] = [
   {
     time: 'Tuesday, March 17th, 6:00 - ?',
     location: {
-      name: 'All About Cha',
-      address: '3750 W Main St, Norman, OK 73072'
+      name: 'Online: https://global.gotomeeting.com/join/823075909',
+      address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/823075909'
     },
     topic: 'TBD'
   },
   {
     time: 'Thursday, March 19th 6:00 - ?',
     location: {
-      name: 'All About Cha',
-      address: '3750 W Main St, Norman, OK 73072'
+      name: 'Online: https://global.gotomeeting.com/join/316787237',
+      address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/316787237'
     },
     topic: 'TBD'
   }
