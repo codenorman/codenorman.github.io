@@ -15,6 +15,19 @@
   margin: 10px 0 0 10px;
 }
 
+.sp-meeting {
+  border: firebrick 1px solid;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  color: #8D2F23;
+}
+
+.sp-meeting-title {
+  font-weight: bold;
+  background-color: #212027;
+  color: #f22f08;
+}
+
 .meetup-container {
 
 }

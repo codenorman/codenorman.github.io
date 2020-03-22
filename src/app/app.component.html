@@ -8,10 +8,17 @@
 
   <div class="content-container">
     <div class="meetup-container">
+      <div class="sp-meeting">
+        <div class="sp-meeting-title">DURING SELF QUARANTINE</div>
+        <div>Want help on personal project or learning something?</div>
+        <div>I can schedule online meeting at other times.</div>
+        <div>Just follow and DM me <a href="https://twitter.com/bchirgwin">@bchirgwin</a></div>
+      </div>
+
       <h2>Upcoming Meetups</h2>
       <app-meetup class="meetup" [meetup]="meetup" *ngFor="let meetup of meetups"></app-meetup>
-    </div>
 
+    </div>
     <div class="book-container">
       <h2>Book readings</h2>
       <app-book *ngFor="let book of books" [book]="book"></app-book>

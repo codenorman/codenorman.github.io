@@ -3,7 +3,7 @@ import {Meetup} from '../app/meetup/meetup.model';
 
 export const Meetups: Meetup[] = [
   {
-    time: 'Tuesday, March 17th, 6:00 - ?',
+    time: 'Tuesday, March 24th, 6:00 - ?',
     location: {
       name: 'Online: https://global.gotomeeting.com/join/823075909',
       address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/823075909'
@@ -11,7 +11,7 @@ export const Meetups: Meetup[] = [
     topic: 'TBD'
   },
   {
-    time: 'Thursday, March 19th 6:00 - ?',
+    time: 'Thursday, March 26th 6:00 - ?',
     location: {
       name: 'Online: https://global.gotomeeting.com/join/316787237',
       address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/316787237'
