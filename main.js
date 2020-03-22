@@ -94,25 +94,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function AppComponent_app_meetup_9_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-meetup", 11);
+function AppComponent_app_meetup_20_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-meetup", 14);
 } if (rf & 2) {
     var meetup_r4 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("meetup", meetup_r4);
 } }
-function AppComponent_app_book_13_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-book", 12);
+function AppComponent_app_book_24_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-book", 15);
 } if (rf & 2) {
     var book_r5 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("book", book_r5);
 } }
-function AppComponent_div_18_Template(rf, ctx) { if (rf & 1) {
+function AppComponent_div_29_Template(rf, ctx) { if (rf & 1) {
     var _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "input", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("change", function AppComponent_div_18_Template_input_change_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r8); var ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r7.onFilter($event); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "input", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("change", function AppComponent_div_29_Template_input_change_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r8); var ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r7.onFilter($event); });
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "label", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "label", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -125,8 +125,8 @@ function AppComponent_div_18_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](tag_r6);
 } }
-function AppComponent_app_resource_19_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-resource", 16);
+function AppComponent_app_resource_30_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-resource", 19);
 } if (rf & 2) {
     var resource_r9 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("resource", resource_r9);
@@ -159,7 +159,7 @@ var AppComponent = /** @class */ (function () {
         }));
     };
     AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-    AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 21, vars: 5, consts: [[2, "text-align", "center", "margin-top", "15px"], ["width", "250", "alt", "Code Norman Logo", "src", "../assets/codenorman.jpg"], [1, "content-container"], [1, "meetup-container"], ["class", "meetup", 3, "meetup", 4, "ngFor", "ngForOf"], [1, "book-container"], [3, "book", 4, "ngFor", "ngForOf"], [1, "resource-container"], [1, "filter-container"], ["class", "filter-tag", 4, "ngFor", "ngForOf"], [3, "resource", 4, "ngFor", "ngForOf"], [1, "meetup", 3, "meetup"], [3, "book"], [1, "filter-tag"], ["type", "checkbox", "checked", "", 3, "id", "name", "value", "change"], [3, "for"], [3, "resource"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+    AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 32, vars: 5, consts: [[2, "text-align", "center", "margin-top", "15px"], ["width", "250", "alt", "Code Norman Logo", "src", "../assets/codenorman.jpg"], [1, "content-container"], [1, "meetup-container"], [1, "sp-meeting"], [1, "sp-meeting-title"], ["href", "https://twitter.com/bchirgwin"], ["class", "meetup", 3, "meetup", 4, "ngFor", "ngForOf"], [1, "book-container"], [3, "book", 4, "ngFor", "ngForOf"], [1, "resource-container"], [1, "filter-container"], ["class", "filter-tag", 4, "ngFor", "ngForOf"], [3, "resource", 4, "ngFor", "ngForOf"], [1, "meetup", 3, "meetup"], [3, "book"], [1, "filter-tag"], ["type", "checkbox", "checked", "", 3, "id", "name", "value", "change"], [3, "for"], [3, "resource"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-top-menu");
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 0);
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "img", 1);
@@ -168,33 +168,50 @@ var AppComponent = /** @class */ (function () {
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "div", 2);
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 3);
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "h2");
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Upcoming Meetups");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, "DURING SELF QUARANTINE");
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, AppComponent_app_meetup_9_Template, 1, 1, "app-meetup", 4);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, "Want help on personal project or learning something?");
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "div", 5);
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "h2");
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "Book readings");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, "I can schedule online meeting at other times.");
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, AppComponent_app_book_13_Template, 1, 1, "app-book", 6);
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "div", 7);
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "h2");
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16, "Resources");
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "div", 8);
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](18, AppComponent_div_18_Template, 4, 5, "div", 9);
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](19, AppComponent_app_resource_19_Template, 1, 1, "app-resource", 10);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, "Just follow and DM me ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "a", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](17, "@bchirgwin");
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](20, "router-outlet");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "h2");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, "Upcoming Meetups");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](20, AppComponent_app_meetup_20_Template, 1, 1, "app-meetup", 7);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "div", 8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "h2");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](23, "Book readings");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](24, AppComponent_app_book_24_Template, 1, 1, "app-book", 9);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "div", 10);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "h2");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](27, "Resources");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "div", 11);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](29, AppComponent_div_29_Template, 4, 5, "div", 12);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](30, AppComponent_app_resource_30_Template, 1, 1, "app-resource", 13);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](31, "router-outlet");
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         } if (rf & 2) {
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" Welcome to ", ctx.title, " ");
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](16);
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.meetups);
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.books);
@@ -202,7 +219,7 @@ var AppComponent = /** @class */ (function () {
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.tags);
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.filteredResources);
-        } }, directives: [_top_menu_top_menu_component__WEBPACK_IMPORTED_MODULE_5__["TopMenuComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgForOf"], _angular_router__WEBPACK_IMPORTED_MODULE_7__["RouterOutlet"], _meetup_meetup_component__WEBPACK_IMPORTED_MODULE_8__["MeetupComponent"], _book_book_component__WEBPACK_IMPORTED_MODULE_9__["BookComponent"], _resource_resource_component__WEBPACK_IMPORTED_MODULE_10__["ResourceComponent"]], styles: [".content-container[_ngcontent-%COMP%] {\r\n  display: grid;\r\n  grid-template-columns: repeat(3, 1fr);\r\n  padding: 10px;\r\n}\r\n\r\n.filter-container[_ngcontent-%COMP%] {\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.filter-container[_ngcontent-%COMP%]   .filter-tag[_ngcontent-%COMP%] {\r\n  display: inline-block;\r\n  margin: 10px 0 0 10px;\r\n}\r\n\r\n.meetup-container[_ngcontent-%COMP%] {\r\n\r\n}\r\n\r\n.book-container[_ngcontent-%COMP%] {\r\n\r\n}\r\n\r\n.resource-container[_ngcontent-%COMP%] {\r\n\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0VBQ2IscUNBQXFDO0VBQ3JDLGFBQWE7QUFDZjs7QUFFQTtFQUNFLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLHFCQUFxQjtFQUNyQixxQkFBcUI7QUFDdkI7O0FBRUE7O0FBRUE7O0FBRUE7O0FBRUE7O0FBRUE7O0FBRUEiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250ZW50LWNvbnRhaW5lciB7XHJcbiAgZGlzcGxheTogZ3JpZDtcclxuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgzLCAxZnIpO1xyXG4gIHBhZGRpbmc6IDEwcHg7XHJcbn1cclxuXHJcbi5maWx0ZXItY29udGFpbmVyIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZGlyZWN0aW9uOiByb3c7XHJcbiAgZmxleC13cmFwOiB3cmFwO1xyXG59XHJcblxyXG4uZmlsdGVyLWNvbnRhaW5lciAuZmlsdGVyLXRhZyB7XHJcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gIG1hcmdpbjogMTBweCAwIDAgMTBweDtcclxufVxyXG5cclxuLm1lZXR1cC1jb250YWluZXIge1xyXG5cclxufVxyXG5cclxuLmJvb2stY29udGFpbmVyIHtcclxuXHJcbn1cclxuXHJcbi5yZXNvdXJjZS1jb250YWluZXIge1xyXG5cclxufVxyXG4iXX0= */"] });
+        } }, directives: [_top_menu_top_menu_component__WEBPACK_IMPORTED_MODULE_5__["TopMenuComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgForOf"], _angular_router__WEBPACK_IMPORTED_MODULE_7__["RouterOutlet"], _meetup_meetup_component__WEBPACK_IMPORTED_MODULE_8__["MeetupComponent"], _book_book_component__WEBPACK_IMPORTED_MODULE_9__["BookComponent"], _resource_resource_component__WEBPACK_IMPORTED_MODULE_10__["ResourceComponent"]], styles: [".content-container[_ngcontent-%COMP%] {\r\n  display: grid;\r\n  grid-template-columns: repeat(3, 1fr);\r\n  padding: 10px;\r\n}\r\n\r\n.filter-container[_ngcontent-%COMP%] {\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.filter-container[_ngcontent-%COMP%]   .filter-tag[_ngcontent-%COMP%] {\r\n  display: inline-block;\r\n  margin: 10px 0 0 10px;\r\n}\r\n\r\n.sp-meeting[_ngcontent-%COMP%] {\r\n  border: firebrick 1px solid;\r\n  border-radius: 10px;\r\n  background-color: whitesmoke;\r\n  color: #8D2F23;\r\n}\r\n\r\n.sp-meeting-title[_ngcontent-%COMP%] {\r\n  font-weight: bold;\r\n  background-color: #212027;\r\n  color: #f22f08;\r\n}\r\n\r\n.meetup-container[_ngcontent-%COMP%] {\r\n\r\n}\r\n\r\n.book-container[_ngcontent-%COMP%] {\r\n\r\n}\r\n\r\n.resource-container[_ngcontent-%COMP%] {\r\n\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0VBQ2IscUNBQXFDO0VBQ3JDLGFBQWE7QUFDZjs7QUFFQTtFQUNFLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLHFCQUFxQjtFQUNyQixxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSwyQkFBMkI7RUFDM0IsbUJBQW1CO0VBQ25CLDRCQUE0QjtFQUM1QixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsaUJBQWlCO0VBQ2pCLHlCQUF5QjtFQUN6QixjQUFjO0FBQ2hCOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGVudC1jb250YWluZXIge1xyXG4gIGRpc3BsYXk6IGdyaWQ7XHJcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoMywgMWZyKTtcclxuICBwYWRkaW5nOiAxMHB4O1xyXG59XHJcblxyXG4uZmlsdGVyLWNvbnRhaW5lciB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogcm93O1xyXG4gIGZsZXgtd3JhcDogd3JhcDtcclxufVxyXG5cclxuLmZpbHRlci1jb250YWluZXIgLmZpbHRlci10YWcge1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICBtYXJnaW46IDEwcHggMCAwIDEwcHg7XHJcbn1cclxuXHJcbi5zcC1tZWV0aW5nIHtcclxuICBib3JkZXI6IGZpcmVicmljayAxcHggc29saWQ7XHJcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZXNtb2tlO1xyXG4gIGNvbG9yOiAjOEQyRjIzO1xyXG59XHJcblxyXG4uc3AtbWVldGluZy10aXRsZSB7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzIxMjAyNztcclxuICBjb2xvcjogI2YyMmYwODtcclxufVxyXG5cclxuLm1lZXR1cC1jb250YWluZXIge1xyXG5cclxufVxyXG5cclxuLmJvb2stY29udGFpbmVyIHtcclxuXHJcbn1cclxuXHJcbi5yZXNvdXJjZS1jb250YWluZXIge1xyXG5cclxufVxyXG4iXX0= */"] });
     return AppComponent;
 }());
 
@@ -829,7 +846,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Meetups", function() { return Meetups; });
 var Meetups = [
     {
-        time: 'Tuesday, March 17th, 6:00 - ?',
+        time: 'Tuesday, March 24th, 6:00 - ?',
         location: {
             name: 'Online: https://global.gotomeeting.com/join/823075909',
             address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/823075909'
@@ -837,7 +854,7 @@ var Meetups = [
         topic: 'TBD'
     },
     {
-        time: 'Thursday, March 19th 6:00 - ?',
+        time: 'Thursday, March 26th 6:00 - ?',
         location: {
             name: 'Online: https://global.gotomeeting.com/join/316787237',
             address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/316787237'
