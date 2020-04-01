@@ -166,7 +166,6 @@ export const resources: Resource[] = [
     upVotes: 0,
     tags: ['book', 'software'],
   },
-
   {
     title: 'MS Channel 9',
     url: 'https://channel9.msdn.com/',
@@ -174,6 +173,14 @@ export const resources: Resource[] = [
     paid: false,
     upVotes: 0,
     tags: ['video'],
+  },
+  {
+    title: 'Wes Bos',
+    url: 'https://wesbos.com/courses/',
+    description: 'Free courses by Wes Bos',
+    paid: false,
+    upVotes: 0,
+    tags: ['courses'],
   },
 
 ];
