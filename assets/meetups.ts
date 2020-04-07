@@ -10,14 +10,14 @@ export const Meetups: Meetup[] = [
   //   },
   //   topic: 'TBD'
   // },
-  {
-    time: 'Tuesday, April 7, 6:00 - ?',
-    location: {
-      name: 'Online: https://global.gotomeeting.com/join/758708085',
-      address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
-    },
-    topic: 'ng-conf Angular update, RxJs, more'
-  },
+  // {
+  //   time: 'Tuesday, April 7, 6:00 - ?',
+  //   location: {
+  //     name: 'Online: https://global.gotomeeting.com/join/758708085',
+  //     address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
+  //   },
+  //   topic: 'ng-conf Angular update, RxJs, more'
+  // },
 ];
 
 // {

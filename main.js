@@ -845,22 +845,22 @@ var Books = [
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Meetups", function() { return Meetups; });
 var Meetups = [
-    // {
-    //   time: 'Thursday, March 26th 6:00 - ?',
-    //   location: {
-    //     name: 'Online: https://global.gotomeeting.com/join/758708085',
-    //     address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
-    //   },
-    //   topic: 'TBD'
-    // },
-    {
-        time: 'Tuesday, April 7, 6:00 - ?',
-        location: {
-            name: 'Online: https://global.gotomeeting.com/join/758708085',
-            address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
-        },
-        topic: 'ng-conf Angular update, RxJs, more'
-    },
+// {
+//   time: 'Thursday, March 26th 6:00 - ?',
+//   location: {
+//     name: 'Online: https://global.gotomeeting.com/join/758708085',
+//     address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
+//   },
+//   topic: 'TBD'
+// },
+// {
+//   time: 'Tuesday, April 7, 6:00 - ?',
+//   location: {
+//     name: 'Online: https://global.gotomeeting.com/join/758708085',
+//     address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
+//   },
+//   topic: 'ng-conf Angular update, RxJs, more'
+// },
 ];
 // {
 //   time: 'Tuesday, March 17th, 6:00 - ?',
