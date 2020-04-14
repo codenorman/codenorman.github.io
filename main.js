@@ -179,7 +179,7 @@ var AppComponent = /** @class */ (function () {
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, "I can schedule online meeting at other times.");
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "div");
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, "Just follow and DM me ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, "Just follow on twitter and send a DM ");
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "a", 6);
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](17, "@bchirgwin");
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
@@ -802,7 +802,7 @@ var Books = [
     {
         title: 'You Don\'t Know JS Yet: Getting Start',
         author: 'By Kyle Simpson',
-        status: 'Current Reading: March',
+        status: '',
         links: [
             {
                 name: 'Amazon',
@@ -817,7 +817,7 @@ var Books = [
     {
         title: 'You Don\'t Know JS Yet: Scopes and Closures',
         author: 'By Kyle Simpson',
-        status: 'Next Reading: April',
+        status: '',
         links: [
             {
                 name: 'Amazon',
@@ -845,22 +845,22 @@ var Books = [
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Meetups", function() { return Meetups; });
 var Meetups = [
-// {
-//   time: 'Thursday, March 26th 6:00 - ?',
-//   location: {
-//     name: 'Online: https://global.gotomeeting.com/join/758708085',
-//     address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
-//   },
-//   topic: 'TBD'
-// },
-// {
-//   time: 'Tuesday, April 7, 6:00 - ?',
-//   location: {
-//     name: 'Online: https://global.gotomeeting.com/join/758708085',
-//     address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
-//   },
-//   topic: 'ng-conf Angular update, RxJs, more'
-// },
+    // {
+    //   time: 'Thursday, March 26th 6:00 - ?',
+    //   location: {
+    //     name: 'Online: https://global.gotomeeting.com/join/758708085',
+    //     address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
+    //   },
+    //   topic: 'TBD'
+    // },
+    {
+        time: 'Tuesday, April 14, 6:00 - ?',
+        location: {
+            name: 'Online: https://global.gotomeeting.com/join/758708085',
+            address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
+        },
+        topic: 'tbd'
+    },
 ];
 // {
 //   time: 'Tuesday, March 17th, 6:00 - ?',
