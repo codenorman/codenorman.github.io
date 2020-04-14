@@ -4,7 +4,7 @@ export const Books: Book[] = [
   {
     title: 'You Don\'t Know JS Yet: Getting Start',
     author: 'By Kyle Simpson',
-    status: 'Current Reading: March',
+    status: '',
     links: [
       {
         name: 'Amazon',
@@ -19,7 +19,7 @@ export const Books: Book[] = [
   {
     title: 'You Don\'t Know JS Yet: Scopes and Closures',
     author: 'By Kyle Simpson',
-    status: 'Next Reading: April',
+    status: '',
     links: [
       {
         name: 'Amazon',
