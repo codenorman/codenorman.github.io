@@ -845,16 +845,8 @@ var Books = [
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Meetups", function() { return Meetups; });
 var Meetups = [
-    // {
-    //   time: 'Thursday, March 26th 6:00 - ?',
-    //   location: {
-    //     name: 'Online: https://global.gotomeeting.com/join/758708085',
-    //     address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
-    //   },
-    //   topic: 'TBD'
-    // },
     {
-        time: 'Tuesday, April 14, 6:00 - ?',
+        time: 'Thursday, April 16th 7:00 - ?',
         location: {
             name: 'Online: https://global.gotomeeting.com/join/758708085',
             address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'

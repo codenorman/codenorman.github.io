@@ -2,22 +2,22 @@ import {Resource} from '../app/resource/resource.model';
 import {Meetup} from '../app/meetup/meetup.model';
 
 export const Meetups: Meetup[] = [
-  // {
-  //   time: 'Thursday, March 26th 6:00 - ?',
-  //   location: {
-  //     name: 'Online: https://global.gotomeeting.com/join/758708085',
-  //     address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
-  //   },
-  //   topic: 'TBD'
-  // },
   {
-    time: 'Tuesday, April 14, 6:00 - ?',
+    time: 'Thursday, April 16th 7:00 - ?',
     location: {
       name: 'Online: https://global.gotomeeting.com/join/758708085',
       address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
     },
     topic: 'tbd'
   },
+  // {
+  //   time: 'Tuesday, April 14, 6:00 - ?',
+  //   location: {
+  //     name: 'Online: https://global.gotomeeting.com/join/758708085',
+  //     address: 'Get the app now and be ready when your first meeting starts: https://global.gotomeeting.com/install/758708085'
+  //   },
+  //   topic: 'tbd'
+  // },
 ];
 
 // {
