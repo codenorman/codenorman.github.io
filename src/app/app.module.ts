@@ -18,6 +18,7 @@ import {MeetupComponent} from './meetup/meetup.component';
 import {ResourceComponent} from './resource/resource.component';
 import {ResourceFormComponent} from './resource-form/resource-form.component';
 import { BookComponent } from './book/book.component';
+import { LastMeetupComponent } from './last-meetup/last-meetup.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { BookComponent } from './book/book.component';
     MeetupComponent,
     ResourceComponent,
     ResourceFormComponent,
-    BookComponent
+    BookComponent,
+    LastMeetupComponent
   ],
   imports: [
     BrowserModule,

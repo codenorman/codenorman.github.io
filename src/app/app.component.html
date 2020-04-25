@@ -1,40 +1,41 @@
-<script src="app.component.ts"></script>
-<app-top-menu></app-top-menu>
-<div style="text-align:center;margin-top: 15px;">
-  <img width="250" alt="Code Norman Logo" src="../assets/codenorman.jpg">
-  <h1>
-    Welcome to {{ title }}
-  </h1>
+<app-last-meetup></app-last-meetup>
+<!--<script src="app.component.ts"></script>-->
+<!--<app-top-menu></app-top-menu>-->
+<!--<div style="text-align:center;margin-top: 15px;">-->
+<!--  <img width="250" alt="Code Norman Logo" src="../assets/codenorman.jpg">-->
+<!--  <h1>-->
+<!--    Welcome to {{ title }}-->
+<!--  </h1>-->
 
-  <div class="content-container">
-    <div class="meetup-container">
-      <div class="sp-meeting">
-        <div class="sp-meeting-title">DURING SELF QUARANTINE</div>
-        <div>Want help on personal project or learning something?</div>
-        <div>I can schedule online meeting at other times.</div>
-        <div>Just follow on twitter and send a DM <a href="https://twitter.com/bchirgwin">@bchirgwin</a></div>
-      </div>
+<!--  <div class="content-container">-->
+<!--    <div class="meetup-container">-->
+<!--      <div class="sp-meeting">-->
+<!--        <div class="sp-meeting-title">DURING SELF QUARANTINE</div>-->
+<!--        <div>Want help on personal project or learning something?</div>-->
+<!--        <div>I can schedule online meeting at other times.</div>-->
+<!--        <div>Just follow on twitter and send a DM <a href="https://twitter.com/bchirgwin">@bchirgwin</a></div>-->
+<!--      </div>-->
 
-      <h2>Upcoming Meetups</h2>
-      <app-meetup class="meetup" [meetup]="meetup" *ngFor="let meetup of meetups"></app-meetup>
+<!--      <h2>Upcoming Meetups</h2>-->
+<!--      <app-meetup class="meetup" [meetup]="meetup" *ngFor="let meetup of meetups"></app-meetup>-->
 
-    </div>
-    <div class="book-container">
-      <h2>Book readings</h2>
-      <app-book *ngFor="let book of books" [book]="book"></app-book>
-    </div>
-    <div class="resource-container">
-      <h2>Resources</h2>
-      <div class="filter-container">
-        <div class="filter-tag" *ngFor="let tag of tags">
-          <input [id]="tag" type="checkbox" [name]="tag" checked [value]="tag" (change)="onFilter($event)">
-          <label [for]="tag">{{tag}}</label>
-        </div>
-      </div>
-      <app-resource [resource]="resource" *ngFor="let resource of filteredResources"></app-resource>
-    </div>
-  </div>
+<!--    </div>-->
+<!--    <div class="book-container">-->
+<!--      <h2>Book readings</h2>-->
+<!--      <app-book *ngFor="let book of books" [book]="book"></app-book>-->
+<!--    </div>-->
+<!--    <div class="resource-container">-->
+<!--      <h2>Resources</h2>-->
+<!--      <div class="filter-container">-->
+<!--        <div class="filter-tag" *ngFor="let tag of tags">-->
+<!--          <input [id]="tag" type="checkbox" [name]="tag" checked [value]="tag" (change)="onFilter($event)">-->
+<!--          <label [for]="tag">{{tag}}</label>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <app-resource [resource]="resource" *ngFor="let resource of filteredResources"></app-resource>-->
+<!--    </div>-->
+<!--  </div>-->
 
-  <router-outlet></router-outlet>
-</div>
-<!--<app-footer></app-footer>-->
+<!--  <router-outlet></router-outlet>-->
+<!--</div>-->
+<!--&lt;!&ndash;<app-footer></app-footer>&ndash;&gt;-->
